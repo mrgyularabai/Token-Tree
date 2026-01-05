@@ -1,5 +1,9 @@
 # Fast Inference-Time Tokenization through Approximating BPE
 
+**Authors**
+
+Gyula Rábai Jr., Ozeki Informatics Ltd, gyula.rabai.jr@ozeki.hu, https://gyularabai.com
+
 **Abstract**
 
 In the world of large language models (LLM), great emphasis has been placed on making high volume inference cost effective. Although this has largely been attempted through changing the underlying model architecture, an approach not yet sufficiently explored is making the surrounding infrastructure, such as tokenization, more efficient instead. In this paper, the author proposes a novel technique that yields greater performance for Byte-Pair Encoding (BPE) tokenization, which is widely used for LLM architectures such as Llama and GPT. This is achieved by noting that approximating the true tokenization output is sufficient for high quality output generation, and this can be done in linear time 100x faster than current solutions. Available on gyularabai.com.
