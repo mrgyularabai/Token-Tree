@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TokenTree/1.0.0": {
+        "dependencies": {
+          "AIModel": "1.0.0",
+          "GGUFParser": "1.0.0"
+        },
+        "runtime": {
+          "TokenTree.dll": {}
+        }
+      },
+      "AIModel/1.0.0": {
+        "dependencies": {
+          "GGUFParser": "1.0.0"
+        },
+        "runtime": {
+          "AIModel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "GGUFParser/1.0.0": {
+        "runtime": {
+          "GGUFParser.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TokenTree/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AIModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GGUFParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
